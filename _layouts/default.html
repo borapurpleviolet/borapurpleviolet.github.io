@@ -36,6 +36,22 @@
   <script async defer src="https://sdk.soopr.co/soopr.js"></script>
   {%- endif -%}
   {%- endif -%}
+
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    if (document.getElementById('search-input')) {
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/search.json',
+        searchResultTemplate: '<li><a href="{url}">{title} <span style="font-size:0.8em; color:gray; margin-left:10px;">({date})</span></a></li>',
+        noResultsText: '<li class="no-results">검색 결과가 없습니다.</li>',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      });
+    }
+  </script>
 </body>
 
 </html>

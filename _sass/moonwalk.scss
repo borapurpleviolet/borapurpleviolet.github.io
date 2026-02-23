@@ -300,6 +300,51 @@ header.common-header {
       outline: none;
       /* 박스 쉐도우나 둥근 모서리가 없는 형태 */
     }
+
+    #results-container {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      max-width: 450px;
+      margin: 0 auto;
+      background-color: var(--bg-secondary);
+      list-style: none;
+      padding: 0;
+      border-radius: 0 0 8px 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      overflow: hidden;
+
+      li {
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+        a {
+          display: block;
+          padding: 0.8rem 1rem;
+          color: var(--text);
+          font-size: 0.95rem;
+          text-decoration: none;
+          text-align: left;
+
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+          }
+        }
+
+        &.no-results {
+          padding: 1rem;
+          color: var(--text-secondary);
+          text-align: center;
+          font-size: 0.9rem;
+        }
+      }
+
+      li:last-child {
+        border-bottom: none;
+      }
+    }
   }
 
   .category-nav {
