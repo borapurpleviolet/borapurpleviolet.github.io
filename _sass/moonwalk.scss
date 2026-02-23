@@ -59,13 +59,22 @@ li {
   padding: 4em 2em;
 }
 
-table,
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+
 th,
 td {
-  width: 100%;
-  border: thin solid black;
-  border-collapse: collapse;
-  padding: 0.4em;
+  border: 1px solid var(--text-secondary);
+  padding: 0.8em;
+  text-align: left;
+}
+
+th {
+  background-color: var(--bg-secondary);
+  font-weight: bold;
 }
 
 div.highlighter-rouge pre code,
