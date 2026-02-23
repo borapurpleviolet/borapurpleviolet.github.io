@@ -6,7 +6,7 @@
     <h3 style="margin-top:0; margin-bottom: 0.5rem;"><a href="{{ post.url | relative_url }}"
         style="font-size: 1.4rem;">{{ post.title }}</a></h3>
     <p style="margin-top: 0; margin-bottom: 0.8rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
-      {{ post.description | default: post.excerpt | strip_html | truncatewords: 35 }}
+      {{ post.excerpt | strip_html | truncate: 160 }}
     </p>
     <span class="home-date" style="font-size: 0.8rem; color: rgba(255,255,255,0.5);">
       {{ post.date | date: site.theme_config.date_format }}
