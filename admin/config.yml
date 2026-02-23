@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: borapurpleviolet/borapurpleviolet.github.io
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "post"
+    label: "블로그 글 (Post)"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "레이아웃 (수정금지)", name: "layout", widget: "hidden", default: "post"}
+      - {label: "제목", name: "title", widget: "string"}
+      - {label: "작성일", name: "date", widget: "datetime"}
+      - {label: "요약(설명)", name: "description", widget: "string", required: false}
+      - {label: "태그", name: "tags", widget: "list", default: ["일상"]}
+      - {label: "본문 내용", name: "body", widget: "markdown"}
