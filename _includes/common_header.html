@@ -1,0 +1,12 @@
+<header class="common-header">
+    <h1><a href="{{ site.url | default: site.baseurl }}/" style="text-decoration:none; color:inherit;">{{ site.title
+            }}</a></h1>
+
+    <div class="search-bar">
+        <input type="text" placeholder="" aria-label="Search" />
+    </div>
+
+    <nav class="category-nav">
+        {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+    </nav>
+</header>

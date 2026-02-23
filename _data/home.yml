@@ -1,12 +1,26 @@
 navbar_entries:
-  - title: about
-    url: about
-
-  - title: blog
-    url: blog
-
-  - title: website
-    url: https://www.abhinav.co
+  - title: 보라색
+    url: "#"
+  - title: 음악
+    url: "#"
+  - title: 전시
+    url: "#"
+  - title: 커피
+    url: "#"
+  - title: 식재료
+    url: "#"
+  - title: 암호화폐
+    url: "#"
+  - title: 건축
+    url: "#"
+  - title: 위스키
+    url: "#"
+  - title: 생각
+    url: "#"
+  - title: 독서
+    url: "#"
+  - title: 단어학습
+    url: "#"
 
 project_entries:
   - title: Project 1

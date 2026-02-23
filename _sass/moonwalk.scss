@@ -260,20 +260,65 @@ mark {
   letter-spacing: 1px;
 }
 
-header h1 {
+header.common-header {
   text-align: center;
-  font-size: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 
-  a {
-    color: var(--headings);
-    text-decoration: none;
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: inherit;
+    font-weight: 700;
+
+    a {
+      color: var(--headings);
+      text-decoration: none;
+    }
   }
-}
 
-header p {
-  text-align: center;
+  .search-bar {
+    margin-bottom: 2.5rem;
+
+    input {
+      width: 100%;
+      max-width: 450px;
+      padding: 0.8rem 1rem;
+      border: none;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 1rem;
+      outline: none;
+      /* 박스 쉐도우나 둥근 모서리가 없는 형태 */
+    }
+  }
+
+  .category-nav {
+    ul.horizontal-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem;
+
+      li {
+        margin: 0;
+
+        a {
+          color: var(--headings);
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 0.95rem;
+
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
 }
 
 p code,
