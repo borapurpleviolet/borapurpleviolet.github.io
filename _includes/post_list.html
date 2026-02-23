@@ -1,12 +1,17 @@
 {% if site.posts.size > 0 %}
-  <ul>
-    {% for post in site.posts %}
-      <li class="post-list-item">
-        <span class="home-date">
-          {{ post.date | date: site.theme_config.date_format }}»
-        </span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<ul style="list-style-type: none; padding-left: 0;">
+  {% for post in site.posts %}
+  <li class="post-list-item"
+    style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <h3 style="margin-top:0; margin-bottom: 0.5rem;"><a href="{{ post.url | relative_url }}"
+        style="font-size: 1.4rem;">{{ post.title }}</a></h3>
+    <p style="margin-top: 0; margin-bottom: 0.8rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+      {{ post.description | default: post.excerpt | strip_html | truncatewords: 35 }}
+    </p>
+    <span class="home-date" style="font-size: 0.8rem; color: rgba(255,255,255,0.5);">
+      {{ post.date | date: site.theme_config.date_format }}
+    </span>
+  </li>
+  {% endfor %}
+</ul>
 {% endif %}

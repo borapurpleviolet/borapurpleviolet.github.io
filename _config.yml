@@ -1,8 +1,8 @@
-title: Tyrian Purple Blog
+title: Tyrian Purple
 author: My Name
-url: https://my-blog.github.io # root address of the site
+url: https://borapurpleviolet.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  A minimalist dark mode blog with a Tyrian Purple vibe.
+  문화유산 음악 전시 커피 식재료 등 다채로운 이야기를 담는 공간입니다.
 
 permalink: /:slug
 
@@ -35,7 +35,7 @@ theme_config:
   home:
     title_projects: Portfolio
     title_misc_list: Details
-    title_blog: Blog
+    title_blog: 
     title_old_projects: Old Projects
 
 soopr:
