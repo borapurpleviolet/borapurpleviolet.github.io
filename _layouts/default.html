@@ -40,8 +40,11 @@
   <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
   <script>
     if (document.getElementById('search-input')) {
+      const searchInput = document.getElementById('search-input');
+
+      // 기존 드롭다운 검색 엔진
       SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
+        searchInput: searchInput,
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search.json',
         searchResultTemplate: '<li><a href="{url}">{title} <span style="font-size:0.8em; color:gray; margin-left:10px;">({date})</span></a></li>',
@@ -49,6 +52,18 @@
         limit: 10,
         fuzzy: false,
         exclude: ['Welcome']
+      });
+
+      // 엔터 키 입력 시 전체 검색 결과 페이지로 이동하는 이벤트 리스너 추가
+      searchInput.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          const query = this.value;
+          if (query.trim() !== '') {
+            // search.html 페이지로 쿼리 스트링(q 파라미터)을 달아서 이동
+            window.location.href = '{{ site.baseurl }}/search.html?q=' + encodeURIComponent(query);
+          }
+        }
       });
     }
   </script>
