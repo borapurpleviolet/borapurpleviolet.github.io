@@ -12,19 +12,7 @@
       {% include toggle_theme_button.html %}
       {% endif %}
       <div class="credits">
-        {%- if site.theme_config.show_copyright == true -%}
-        &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
-        &nbsp;
-        •
-        &nbsp;
-        {%- endif -%}
-        {%- if site.soopr -%}
-        Powered by <a href="https://www.soopr.co" target="_blank" rel="noreferrer">Soopr</a>
-        &nbsp;
-        •
-        &nbsp;
-        {%- endif -%}
-        Theme&nbsp; <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
+        <!-- 하단 크레딧/푸터 영역 사용자 요청으로 숨김 처리 -->
       </div>
     </div>
   </main>
