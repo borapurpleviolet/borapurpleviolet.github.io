@@ -69,7 +69,7 @@ tags: [문화유산, 답사]
 
 ---
 
-![Uploading KakaoTalk_20260224_155240993_01.jpg…]()
+![KakaoTalk_20260224_155240993_01](https://github.com/user-attachments/assets/44017f89-87f3-4a45-b3ff-6646ee33684f)
 
 
 ## Ⅳ. 세부 건축 구조
