@@ -1,26 +1,26 @@
 navbar_entries:
   - title: 보라색
-    url: "#"
+    url: "/purple/"
   - title: 음악
-    url: "#"
+    url: "/music/"
   - title: 전시
-    url: "#"
+    url: "/exhibition/"
   - title: 커피
-    url: "#"
+    url: "/coffee/"
   - title: 식재료
-    url: "#"
+    url: "/ingredients/"
   - title: 암호화폐
-    url: "#"
+    url: "/crypto/"
   - title: 건축
-    url: "#"
+    url: "/architecture/"
   - title: 위스키
-    url: "#"
+    url: "/whiskey/"
   - title: 생각
-    url: "#"
+    url: "/thoughts/"
   - title: 독서
-    url: "#"
+    url: "/reading/"
   - title: 단어학습
-    url: "#"
+    url: "/vocabulary/"
 
 project_entries:
   - title: Project 1
