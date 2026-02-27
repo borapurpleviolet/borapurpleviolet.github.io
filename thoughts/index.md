@@ -6,5 +6,5 @@ permalink: /thoughts/
 hidden: true
 ---
 
-* [세계는 전시중](/world-exhibition/)
-* [모두가 예술가인 시대의 단상](/everyone-is-an-artist/)
+* [세계의 모든 것은 전시 중이다 (Exhibition)](/world-exhibition/)
+* [모두가 예술가인, 하지만 모두가 예술가가 될 수 없는](/everyone-is-an-artist/)
