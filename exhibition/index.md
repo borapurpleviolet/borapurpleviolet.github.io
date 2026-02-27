@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
-title: "?�시"
-date: 2026-02-27 10:02:00 +0900
-category: ?�시
+title: "전시"
+category: 전시
 permalink: /exhibition/
+hidden: true
 ---
 
-?�시??관???�기??관???�보�?기록?�는 공간?�니??
+전시 관람 후기와 정보를 기록하는 공간입니다.

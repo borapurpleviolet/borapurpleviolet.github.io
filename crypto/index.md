@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
-title: "?�호?�폐"
-date: 2026-02-27 10:05:00 +0900
-category: ?�호?�폐
+title: "암호화폐"
+category: 암호화폐
 permalink: /crypto/
+hidden: true
 ---
 
-?�호?�폐 ?�장 ?�향, ?�로?�트 분석, ?�자 ?�각 ?�을 ?�리?�는 공간?�니??
+암호화폐 시장 동향과 투자 생각을 정리하는 공간입니다.

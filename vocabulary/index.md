@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
-title: "?�어?�습"
-date: 2026-02-27 10:10:00 +0900
-category: ?�어?�습
+title: "단어학습"
+category: 단어학습
 permalink: /vocabulary/
+hidden: true
 ---
 
-?�용???�식???�는 ?�로???�휘?� ?�현, �??�앙?��? 배우�??�히??공간?�니??
+새로운 어휘와 표현을 배우고 익히는 공간입니다.

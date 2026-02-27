@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
-title: "?�스??
-date: 2026-02-27 10:07:00 +0900
-category: ?�스??
+title: "위스키"
+category: 위스키
 permalink: /whiskey/
+hidden: true
 ---
 
-?�양???�스?�의 ?�음기�? ?�보?�을 교류?�고 기록?�는 공간?�니??
+다양한 위스키 시음기와 정보를 교류하는 공간입니다.

@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
-title: "?�재�?
-date: 2026-02-27 10:04:00 +0900
-category: ?�재�?
+title: "식재료"
+category: 식재료
 permalink: /ingredients/
+hidden: true
 ---
 
-?�양???�재료에 ?�???�구?� ?�리 기록???�기??공간?�니??
+식재료 탐구와 리뷰를 남기는 공간입니다.

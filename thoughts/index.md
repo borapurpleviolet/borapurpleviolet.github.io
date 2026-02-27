@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
-title: "?�각"
-date: 2026-02-27 10:08:00 +0900
-category: ?�각
+title: "생각"
+category: 생각
 permalink: /thoughts/
+hidden: true
 ---
 
-?�상?�서 ?�오르는 ?�상, ?�세?? 개인?�인 ?�각?�을 ?�리?�는 공간?�니??
+일상의 단상과 에세이를 기록하는 공간입니다.

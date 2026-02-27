@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
-title: "?�악"
-date: 2026-02-27 10:01:00 +0900
-category: ?�악
+title: "음악"
+category: 음악
 permalink: /music/
+hidden: true
 ---
 
-?�악 ?�크?�과 리뷰�??�기??공간?�니??
+음악 관련 스크랩과 리뷰를 남기는 공간입니다.

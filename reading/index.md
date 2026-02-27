@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
-title: "?�서"
-date: 2026-02-27 10:09:00 +0900
-category: ?�서
+title: "독서"
+category: 독서
 permalink: /reading/
+hidden: true
 ---
 
-책을 ?�고 ???�의 감상, ?�평, 그리�?감명 깊�? 구절?�을 기록?�는 공간?�니??
+책을 읽고 난 후의 감상과 서평을 남기는 공간입니다.

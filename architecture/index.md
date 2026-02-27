@@ -1,10 +1,9 @@
 ---
 layout: page
-hidden: true
 title: "건축"
-date: 2026-02-27 10:06:00 +0900
 category: 건축
 permalink: /architecture/
+hidden: true
 ---
 
-?�통 건축물과 ?��? 건축??미학, 그리�?문화?�산??관??깊이 ?�는 글???�기??공간?�니??
+건축물과 공간에 대한 생각을 남기는 공간입니다.
