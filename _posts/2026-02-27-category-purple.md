@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "보라색"
+hidden: true
+title: "보라??
 date: 2026-02-27 10:00:00 +0900
-category: 보라색
+category: 보라??
 permalink: /purple/
 ---
 
-보라색 관련 기록을 남기는 공간입니다. 자유롭게 내용을 채워주세요.
+보라??관??기록???�기??공간?�니?? ?�유�?�� ?�용??채워주세??

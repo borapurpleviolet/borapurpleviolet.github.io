@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "전시"
+hidden: true
+title: "?�시"
 date: 2026-02-27 10:02:00 +0900
-category: 전시
+category: ?�시
 permalink: /exhibition/
 ---
 
-전시회 관람 후기나 관련 정보를 기록하는 공간입니다.
+?�시??관???�기??관???�보�?기록?�는 공간?�니??

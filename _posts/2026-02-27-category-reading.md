@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "독서"
+hidden: true
+title: "?�서"
 date: 2026-02-27 10:09:00 +0900
-category: 독서
+category: ?�서
 permalink: /reading/
 ---
 
-책을 읽고 난 후의 감상, 서평, 그리고 감명 깊은 구절들을 기록하는 공간입니다.
+책을 ?�고 ???�의 감상, ?�평, 그리�?감명 깊�? 구절?�을 기록?�는 공간?�니??

@@ -1,6 +1,7 @@
 {% if site.posts.size > 0 %}
 <ul style="list-style-type: none; padding-left: 0;">
   {% for post in site.posts %}
+  {% unless post.hidden %}
   <li class="post-list-item"
     style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
     <h3 style="margin-top:0; margin-bottom: 0.5rem;"><a href="{{ post.url | relative_url }}"
@@ -12,6 +13,7 @@
       {{ post.date | date: site.theme_config.date_format }}
     </span>
   </li>
+  {% endunless %}
   {% endfor %}
 </ul>
 {% endif %}
