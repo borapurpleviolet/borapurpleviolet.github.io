@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 hidden: true
 title: "?¨ì–´?™ìŠµ"
 date: 2026-02-27 10:10:00 +0900

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 hidden: true
 title: "커피"
 date: 2026-02-27 10:03:00 +0900

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 hidden: true
 title: "건축"
 date: 2026-02-27 10:06:00 +0900
