@@ -6,4 +6,5 @@ permalink: /thoughts/
 hidden: true
 ---
 
-일상의 단상과 에세이를 기록하는 공간입니다.
+* [세계는 전시중](/world-exhibition/)
+* [모두가 예술가인 시대의 단상](/everyone-is-an-artist/)
