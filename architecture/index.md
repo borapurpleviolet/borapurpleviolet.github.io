@@ -10,3 +10,4 @@ hidden: true
 * [의성 탑리리 오층석탑](/tapiri-pagoda)
 * [안동 법흥사지 칠층전탑](/beopheung-pagoda)
 * [구미 죽장리 오층석탑](/gumi-jukjangri-pagoda)
+* [예천 개심사지 오층석탑](/yecheon-gaesimsa-pagoda)
