@@ -6,4 +6,5 @@ permalink: /crypto/
 hidden: true
 ---
 
+* [이더리움은 웹 3.0 시대에 무국경적 국가가 될 것이다](/ethereum-borderless-state)
 * [비트코인이 자유의 돈인 이유 (Why Bitcoin Is Freedom Money)](/why-bitcoin-is-freedom-money)
