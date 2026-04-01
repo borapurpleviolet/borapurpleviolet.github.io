@@ -6,3 +6,5 @@ permalink: /vocabulary/
 hidden: true
 ---
 
+- [건축]({% post_url 2026-04-01-architecture %})
+
