@@ -390,6 +390,14 @@ header.common-header {
         display: none; /* 크롬/사파리 스크롤바 숨김 */
       }
 
+      /* 데스크톱(PC) 화면에서는 줄바꿈을 허용하고 중앙 정렬하여 태그 클라우드처럼 보여줌 */
+      @media (min-width: 768px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: visible;
+        padding-bottom: 0;
+      }
+
       li {
         margin: 0;
         flex: 0 0 auto; /* 글자 길이에 맞춰 압축되지 않도록 유지 */
