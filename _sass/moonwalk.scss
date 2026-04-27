@@ -287,54 +287,80 @@ header.common-header {
   }
 
   .search-bar {
-    margin-bottom: 2.5rem;
+    position: relative;
+    margin: 0 auto 3rem auto;
+    width: 90%; /* 모바일에서 양옆 여백 확보 */
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
 
     input {
       width: 100%;
-      max-width: 450px;
-      padding: 0.8rem 1rem;
-      border: none;
-      background-color: #ffffff;
-      color: #000000;
+      padding: 0.9rem 1.2rem 0.9rem 2.8rem; /* 아이콘 공간 확보 */
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      border-radius: 50px; /* 라운드 디자인 */
+      background-color: rgba(255, 255, 255, 0.95);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: 1rem center;
+      background-size: 1.2rem;
+      color: #333;
       font-size: 1rem;
       outline: none;
-      /* 박스 쉐도우나 둥근 모서리가 없는 형태 */
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+      &::placeholder {
+        color: #999;
+        font-weight: 400;
+        letter-spacing: -0.5px;
+      }
+
+      &:focus {
+        border-color: var(--highlight);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+      }
     }
 
     #results-container {
       position: absolute;
-      top: 100%;
+      top: calc(100% + 10px);
       left: 0;
       right: 0;
-      max-width: 450px;
+      width: 100%;
+      max-width: 500px;
       margin: 0 auto;
       background-color: var(--bg-secondary);
       list-style: none;
-      padding: 0;
-      border-radius: 0 0 8px 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-      z-index: 10;
+      padding: 5px 0;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      z-index: 100;
       overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.1);
 
       li {
         margin: 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 
         a {
           display: block;
-          padding: 0.8rem 1rem;
+          padding: 1rem 1.5rem;
           color: var(--text);
-          font-size: 0.95rem;
+          font-size: 0.9rem;
           text-decoration: none;
           text-align: left;
+          transition: background 0.2s;
 
           &:hover {
-            background-color: rgba(255, 255, 255, 0.05);
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--links);
           }
         }
 
         &.no-results {
-          padding: 1rem;
+          padding: 1.5rem;
           color: var(--text-secondary);
           text-align: center;
           font-size: 0.9rem;
