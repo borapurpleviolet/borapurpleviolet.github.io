@@ -7,4 +7,5 @@ hidden: true
 ---
 
 - [건축]({% post_url 2026-04-01-architecture %})
+- [요리]({% post_url 2026-04-27-cooking %})
 
