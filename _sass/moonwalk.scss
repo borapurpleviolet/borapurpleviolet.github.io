@@ -376,28 +376,54 @@ header.common-header {
   .category-nav {
     ul.horizontal-list {
       list-style-type: none;
-      padding: 0;
+      padding: 0 0 10px 0; /* 스와이프를 위한 하단 여백 */
       margin: 0;
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1.2rem;
+      flex-wrap: nowrap; /* 모바일에서 자동 줄바꿈 금지 */
+      justify-content: flex-start; /* 왼쪽부터 차례대로 정렬 */
+      gap: 0.8rem;
+      overflow-x: auto; /* 가로 스와이프 스크롤 허용 */
+      -webkit-overflow-scrolling: touch; /* 부드러운 스크롤 */
+      scrollbar-width: none; /* 파이어폭스용 스크롤바 숨김 */
+
+      &::-webkit-scrollbar {
+        display: none; /* 크롬/사파리 스크롤바 숨김 */
+      }
 
       li {
         margin: 0;
+        flex: 0 0 auto; /* 글자 길이에 맞춰 압축되지 않도록 유지 */
 
         a {
-          color: var(--headings);
+          display: inline-block;
+          color: var(--text);
           text-decoration: none;
           font-weight: bold;
-          font-size: 0.95rem;
+          font-size: 0.9rem;
+          padding: 0.5rem 1rem;
+          background-color: rgba(255, 255, 255, 0.08); /* 캡슐형 배경 */
+          border-radius: 30px; /* 둥근 캡슐 모서리 */
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          transition: all 0.2s ease;
 
           &:hover {
-            opacity: 0.7;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.3);
           }
         }
       }
     }
+  }
+
+  footer .horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem; /* 기존에 하드코딩된 띄어쓰기를 대체하는 간격 */
   }
 }
 
