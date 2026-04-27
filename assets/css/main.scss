@@ -4,3 +4,16 @@
 @import "moonwalk";
 @import "list";
 @import "syntax";
+
+/* 이미지 왜곡 방지 설정 */
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* 목록 미리보기 이미지 비율 고정 */
+.post-teaser img, 
+.archive__item-teaser img {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
