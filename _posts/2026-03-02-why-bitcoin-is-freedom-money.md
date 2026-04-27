@@ -9,7 +9,6 @@ tags:
   - 번역
 ---
 
-# 비트코인이 자유의 돈인 이유 (Why Bitcoin Is Freedom Money)
 
 **원작자:** 알렉스 글래드스타인 (Alex Gladstein)  
 *출처: Journal of Democracy (Volume 36, Number 4, October 2025)*
