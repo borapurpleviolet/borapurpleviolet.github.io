@@ -5,15 +5,12 @@
 @import "list";
 @import "syntax";
 
-/* 이미지 왜곡 방지 설정 */
-img {
-  object-fit: cover;
-  object-position: center;
-}
-
-/* 목록 미리보기 이미지 비율 고정 */
+/* 이미지 왜곡 및 잘림 방지 (원본 비율 유지) */
 .post-teaser img, 
-.archive__item-teaser img {
-  aspect-ratio: 16 / 9;
-  width: 100%;
+.archive__item-teaser img,
+img {
+  width: 100% !important;  /* 가로폭은 꽉 채우되 */
+  height: auto !important; /* 세로는 사진 비율에 맞춰 자동으로 조절 */
+  object-fit: visible !important; /* 자르지 않음 */
+  aspect-ratio: auto !important;  /* 강제 비율 해제 */
 }
