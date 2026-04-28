@@ -12,3 +12,4 @@ hidden: true
 * [구미 죽장리 오층석탑](/gumi-jukjangri-pagoda)
 * [예천 개심사지 오층석탑](/yecheon-gaesimsa-pagoda)
 * [칠곡 송림사 오층전탑](/chilgok-songnimsa-pagoda)
+* [병산서원](/byeongsan-seowon)
