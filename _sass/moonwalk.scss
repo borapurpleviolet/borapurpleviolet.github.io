@@ -63,6 +63,9 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 2em 0;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 th,
@@ -289,16 +292,19 @@ header.common-header {
   .search-bar {
     position: relative;
     margin: 0 auto 3rem auto;
-    width: 90%; /* 모바일에서 양옆 여백 확보 */
+    width: 90%;
+    /* 모바일에서 양옆 여백 확보 */
     max-width: 500px;
     display: flex;
     justify-content: center;
 
     input {
       width: 100%;
-      padding: 0.9rem 1.2rem 0.9rem 2.8rem; /* 아이콘 공간 확보 */
+      padding: 0.9rem 1.2rem 0.9rem 2.8rem;
+      /* 아이콘 공간 확보 */
       border: 1px solid rgba(0, 0, 0, 0.05);
-      border-radius: 50px; /* 라운드 디자인 */
+      border-radius: 50px;
+      /* 라운드 디자인 */
       background-color: rgba(255, 255, 255, 0.95);
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
       background-repeat: no-repeat;
@@ -376,18 +382,25 @@ header.common-header {
   .category-nav {
     ul.horizontal-list {
       list-style-type: none;
-      padding: 0 0 10px 0; /* 스와이프를 위한 하단 여백 */
+      padding: 0 0 10px 0;
+      /* 스와이프를 위한 하단 여백 */
       margin: 0;
       display: flex;
-      flex-wrap: nowrap; /* 모바일에서 자동 줄바꿈 금지 */
-      justify-content: flex-start; /* 왼쪽부터 차례대로 정렬 */
+      flex-wrap: nowrap;
+      /* 모바일에서 자동 줄바꿈 금지 */
+      justify-content: flex-start;
+      /* 왼쪽부터 차례대로 정렬 */
       gap: 0.8rem;
-      overflow-x: auto; /* 가로 스와이프 스크롤 허용 */
-      -webkit-overflow-scrolling: touch; /* 부드러운 스크롤 */
-      scrollbar-width: none; /* 파이어폭스용 스크롤바 숨김 */
+      overflow-x: auto;
+      /* 가로 스와이프 스크롤 허용 */
+      -webkit-overflow-scrolling: touch;
+      /* 부드러운 스크롤 */
+      scrollbar-width: none;
+      /* 파이어폭스용 스크롤바 숨김 */
 
       &::-webkit-scrollbar {
-        display: none; /* 크롬/사파리 스크롤바 숨김 */
+        display: none;
+        /* 크롬/사파리 스크롤바 숨김 */
       }
 
       /* 데스크톱(PC) 화면에서는 줄바꿈을 허용하고 중앙 정렬하여 태그 클라우드처럼 보여줌 */
@@ -400,7 +413,8 @@ header.common-header {
 
       li {
         margin: 0;
-        flex: 0 0 auto; /* 글자 길이에 맞춰 압축되지 않도록 유지 */
+        flex: 0 0 auto;
+        /* 글자 길이에 맞춰 압축되지 않도록 유지 */
 
         a {
           display: inline-block;
@@ -409,8 +423,10 @@ header.common-header {
           font-weight: bold;
           font-size: 0.9rem;
           padding: 0.5rem 1rem;
-          background-color: rgba(255, 255, 255, 0.08); /* 캡슐형 배경 */
-          border-radius: 30px; /* 둥근 캡슐 모서리 */
+          background-color: rgba(255, 255, 255, 0.08);
+          /* 캡슐형 배경 */
+          border-radius: 30px;
+          /* 둥근 캡슐 모서리 */
           border: 1px solid rgba(255, 255, 255, 0.1);
           transition: all 0.2s ease;
 
@@ -431,7 +447,8 @@ header.common-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem; /* 기존에 하드코딩된 띄어쓰기를 대체하는 간격 */
+    gap: 1.5rem;
+    /* 기존에 하드코딩된 띄어쓰기를 대체하는 간격 */
   }
 }
 
