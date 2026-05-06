@@ -17,6 +17,27 @@ layout: default
 {% if site.theme_config.show_blog == true %}
 <h2>{{ site.theme_config.home.title_blog }}</h2>
 {% include post_list.html %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination" style="margin-top: 3rem; display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem;">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="previous" style="text-decoration: none;">&laquo; 이전</a>
+  {% else %}
+    <span class="previous" style="color: rgba(255,255,255,0.3);">&laquo; 이전</span>
+  {% endif %}
+
+  <span class="page_number" style="color: rgba(255,255,255,0.5);">
+    {{ paginator.page }} / {{ paginator.total_pages }}
+  </span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="next" style="text-decoration: none;">다음 &raquo;</a>
+  {% else %}
+    <span class="next" style="color: rgba(255,255,255,0.3);">다음 &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
 {% endif %}
 
 {% if site.theme_config.show_old_projects == true %}

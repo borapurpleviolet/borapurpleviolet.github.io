@@ -50,3 +50,7 @@ plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/page:num/"

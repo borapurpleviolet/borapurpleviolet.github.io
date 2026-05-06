@@ -1,6 +1,7 @@
-{% if site.posts.size > 0 %}
+{% assign posts = paginator.posts | default: site.posts %}
+{% if posts.size > 0 %}
 <ul style="list-style-type: none; padding-left: 0;">
-  {% for post in site.posts %}
+  {% for post in posts %}
   {% unless post.hidden %}
   <li class="post-list-item"
     style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
