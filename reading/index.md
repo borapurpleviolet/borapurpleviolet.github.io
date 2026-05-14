@@ -6,3 +6,4 @@ permalink: /reading/
 hidden: true
 ---
 
+* [성학십도](/seonghak-sipdo)
