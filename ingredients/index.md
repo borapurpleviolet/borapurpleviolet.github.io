@@ -3,6 +3,7 @@ layout: page
 title: "식재료"
 category: 식재료
 permalink: /ingredients/
+description: "식재료, 조리법, 식문화와 관련된 공부를 정리한 글 목록입니다."
 hidden: true
 ---
 

@@ -3,6 +3,7 @@ layout: page
 title: "생각"
 category: 생각
 permalink: /thoughts/
+description: "예술, 전시, 세계를 바라보는 방식에 관한 생각을 정리한 글 목록입니다."
 hidden: true
 ---
 

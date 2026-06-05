@@ -3,6 +3,7 @@ layout: page
 title: "건축"
 category: 건축
 permalink: /architecture/
+description: "석탑, 서원, 전통 건축과 공간을 공부하고 정리한 글 목록입니다."
 hidden: true
 ---
 

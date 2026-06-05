@@ -1,16 +1,26 @@
 title: Tyrian Purple
-author: My Name
+tagline: 문화유산, 예술, 음악, 커피, 식재료를 공부하고 기록하는 개인 블로그
+author: bora_purple_violet
+lang: ko-KR
+locale: ko_KR
+timezone: Asia/Seoul
 url: https://borapurpleviolet.github.io # root address of the site
+baseurl: ""
 description: > # description of the site (multiple lines allowed)
-  문화유산 음악 전시 커피 식재료 등 다채로운 이야기를 담는 공간입니다.
+  문화유산, 건축, 예술, 전시, 음악, 커피, 식재료, 독서를 공부하고 기록하는 개인 블로그입니다.
+logo: /logo.png
 
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
-    username: abhinav # update or delete this
-    card: summary_large_image
+  card: summary_large_image
+
+social:
+  name: Tyrian Purple
+  links:
+    - https://www.instagram.com/bora_purple_violet/
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 # remote_theme: abhinavs/moonwalk
@@ -48,9 +58,25 @@ sass:
 
 plugins:
   - jekyll-feed
-  - jekyll-soopr-seo-tag
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
 
 paginate: 6
 paginate_path: "/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: ko-KR
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      lang: ko-KR
+
+exclude:
+  - _backup/
+  - _posts/2026-05-25-serious-art-does-not-exist.md.before_rewrite

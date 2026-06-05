@@ -3,6 +3,7 @@ layout: page
 title: "암호화폐"
 category: 암호화폐
 permalink: /crypto/
+description: "비트코인, 이더리움, 웹3와 디지털 자산에 관한 생각과 공부를 모은 글 목록입니다."
 hidden: true
 ---
 
