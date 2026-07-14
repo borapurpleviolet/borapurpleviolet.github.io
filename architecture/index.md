@@ -15,3 +15,4 @@ hidden: true
 * [칠곡 송림사 오층전탑](/chilgok-songnimsa-pagoda)
 * [병산서원](/byeongsan-seowon)
 * [의성 관덕동 삼층석탑](/uiseong-gwandeokdong-pagoda)
+* [국립신미술관, 탈권위에 도전하는 공공건축](/national-art-center-tokyo)
