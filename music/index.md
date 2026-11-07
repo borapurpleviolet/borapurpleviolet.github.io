@@ -8,3 +8,4 @@ hidden: true
 ---
 
 * [소리를 증류하고 이미지를 건축하는 일](/distilling-sound-and-building-images)
+* [음향 측정 데이터로 소리의 자리를 작곡하기](/cut-voltage-spatial-audio)
